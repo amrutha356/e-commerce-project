@@ -1,13 +1,186 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.right{
+    padding-left: 900px;
+}
+.right li{
+    padding-left: 150px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-1{
+    height:80px!important;
 }
+.nav-1 input{
+    width:400px;
+}
+.nav-2{
+    background-color: rgb(51, 53, 69) !important;
+    height:80px;
+}
+
+.nav-2 li a{
+    padding-left: 130px;
+    text-decoration: none;
+    color: white;
+}
+
+.product-details{
+    display: inline;
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.product-details img{
+    height:360px;
+   
+}
+.products {
+    display:grid;
+    grid-template-columns: 500px 500px 500px;
+    margin: 0px 40px;
+    margin-left:40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.products img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.cart-head{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.product h2{
+    text-decoration: none;
+}
+/* 
+.banner_img{
+    width: 100vw;
+    height: 280px;
+} */
+
+.carasousel{
+   width: 300px !important;;
+   height: 300px !important;;
+    
+}
+
+.view-butn{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav1-Link{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.nav1-Link2{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.nav-link-active{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.header-li{
+    font-size: 20px;
+}
+.cartDetails{
+    display: flex;
+    height: 450px;
+}
+.cartDetails img{
+    width: 200px;
+    height: 300px;
+}
+
+.checkout input{
+    width: 700px !important;
+}
+.checkout textarea{
+    width: 700px !important;
+}
+
+.add-btn{
+   display: flex;
+   justify-content: space-evenly;
+}
+.total-cart input{
+    position:fixed;
+    top:400px;
+    right:300px;
+    height: 150px;
+
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    position: relative;
+    top: 60px;
+    background-color:#232F3E;
+}
+
+footer .footer_container{
+    color: #fff;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items:flex-start;
+    position: relative;
+    top: 30px;
+}
+
+footer .footer_container .footr_details_one h3{
+    font-size: 16px;
+    text-align: left;
+}
+
+footer .footer_container .footr_details_one p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: .5px;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+footer .lastdetails{
+    background-color: #131A22;
+    height:20vh;
+}
+
+footer img{
+    display: block;
+    width: 80px;
+    margin: 50px auto auto auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: .3px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
